@@ -1,0 +1,654 @@
+h1, h2, h3, h4, h5, h6, body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background-color: black;
+}
+@media (min-width: 300px) {
+  .campushover h1, .sharespacehover h1{
+margin-top: 20%;
+}
+.fitmaphover h1 {
+  margin-top: 10%;
+}
+}
+@media (min-width: 500px) {
+  .campushover h1, .sharespacehover h1{
+margin-top: 30%;
+}
+.fitmaphover h1 {
+  margin-top: 20%;
+}
+}
+@media (min-width: 600px) {
+.campushover h1, .sharespacehover h1{
+margin-top: 35%;
+}
+.fitmaphover h1 {
+  margin-top: 30%;
+}
+}
+@media (max-width: 949px) {
+  header {
+    background-color: #2B2B2B;
+  }
+  .rightnav li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+.rightnav, .leftnav {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.rightnav {
+  background-color: #2B2B2B;
+}
+.rightnav li{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.studies h1 {
+  text-align: center;
+}
+.studies ul {
+  padding-right: 20px;
+}
+.fitmap {
+  background-color: #2B2B2B;
+  padding-top: 40px;
+}
+.sharespace {
+  padding-top: 40px;
+}
+.casecampus, .casefitmap, .casesharespace {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.casecampus img, .casefitmap img, .casesharespace img {
+  width: 100%;
+}
+.campusdescription, .fitmapdescription, .sharespacedescription {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.bottomleft, .bottomright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer ul li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+@media (min-width: 950px) {
+/**HEADER**/
+header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  background-color: #2B2B2B;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.studies h1 {
+  margin-left: 4%;
+}
+.container {
+  position: relative;
+}
+.leftnav, .rightnav {
+  margin: 0;
+  padding: 20px 4%;
+  width: 45%;
+}
+.rightnav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+.leftnav li, .rightnav li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+.leftnav img {
+  padding-right: 20px;
+}
+.rightnav li a {
+  padding-left: 20px;
+  }
+
+/**CASE STUDIES**/
+.studies {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2B2B2B;
+  overflow: auto;
+}
+.casecampus img, .casefitmap img, .casesharespace img {
+  width: 95%;
+  margin-bottom: 4px;
+  margin-top: 8px;
+  margin-left: 2.5%;
+}
+.casecampus, .casefitmap, .casesharespace {
+  width: 35%;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 4%;
+}
+
+.campusdescription, .fitmapdescription, .sharespacedescription {
+  width: 57%;
+  float: right;
+  margin-right: 4%;
+}
+.contact, .casefitmap, .casesharespace {
+  clear: both;
+}
+.contact {
+  width: 80%;
+}
+footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bottomright, .bottomleft {
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bottomleft {
+  float: left;
+}
+.bottomright {
+  float: right;
+  text-align: right;
+}
+footer ul li {
+  display: inline;
+  padding-left: 20px;
+}
+.campushover h1, .sharespacehover h1{
+margin-top: 20%;
+}
+.fitmaphover h1 {
+  margin-top: 10%;
+}
+}
+@media (min-width: 1000px) {
+  .fitmaphover h1 {
+    margin-top: 16%;
+  }
+}
+/**End of Media Queries**/
+.studies h1 {
+  font-size: 21px;
+}
+.leftnav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.leftnav li a span {
+  color: #AFAFAF;
+}
+
+.rightnav li a {
+  color: white;
+  text-decoration: none;
+}
+.rightnav li span:hover {
+  border-bottom: 3px solid white;
+  transition: 0.1s;
+}
+.rightnav li span span{
+  border-bottom: 3px solid white;
+}
+.leftnav img {
+  width: 55px;
+  height: 61px;
+}
+
+.casecampus {
+  background-color: #D96459;
+}
+.casefitmap {
+  background-color: #8C4646;
+}
+.casesharespace {
+  background-color: #F2E394;
+}
+.studies h1 {
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.studies ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+}
+.studies ul li {
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.studies ul li a {
+  color: #45AAD7;
+  text-decoration: none;
+}
+.studies ul li a img {
+  padding-left: 5px;
+}
+.campusdescription ul h1, .fitmapdescription ul h1, .sharespacedescription ul h1 {
+  margin-left: 0;
+}
+.fitmapdescription span span {
+  color: #959595;
+  padding-left: 10px;
+}
+span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.contact {
+background-color: #F2AE72;
+margin-left: auto;
+margin-right: auto;
+height: 300px;
+margin-top: 5px;
+}
+.contact h1, .contact p {
+  text-align: center;
+  color: white;
+}
+.contact p {
+  margin-bottom: 60px;
+}
+.contact h1 {
+  margin-bottom: 40px;
+}
+
+.contactbtn {
+  background-color: #F2AE72;
+  width: 183.1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactbtn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #588C7E;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+.contactstyle {
+  padding-top: 15px;
+}
+footer p {
+  margin: 0;
+  font-size: 12px;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li a{
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
+footer ul li a:hover {
+  opacity: 0.6;
+  transition: 0.1s;
+}
+.bottomleft {
+  color: white;
+}
+
+.casecampus, .casefitmap, .casesharespace {
+  position: relative;
+}
+.campushover, .fitmaphover, .sharespacehover {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  width: 95%;
+  margin: 2.5%;
+  text-decoration: none;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.campushover h1, .fitmaphover h1, .sharespacehover h1 {
+  margin-left: 0;
+  padding: 0;
+}
+.campushover ul, .sharespacehover ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.campushover ul li, .sharespacehover ul li, .fitmaphover ul li {
+  margin: 0;
+  padding-bottom: 5px;
+}
+.casecampus:hover .campushover {
+  visibility: visible;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.casefitmap:hover .fitmaphover {
+  visibility: visible;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.casesharespace:hover .sharespacehover {
+  visibility: visible;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.fitmaphover ul {
+  padding: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/**Campus**/
+
+.hero {
+  background-image: linear-gradient(153deg, #EF7C6C 0%, #D96459 95%);;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.herocampusimg {
+  width: 70%;
+  padding: 5% 0 5% 25%;
+}
+
+.sum {
+  width: 60%;
+  padding: 0 8% 0 4%;
+}
+.sum img {
+  width: 25%;
+}
+.sum ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0 0 20px 0;
+}
+.sum ul li {
+  display: inline;
+  padding-right: 10px;
+  color: white;
+}
+.sum p {
+  font-size: 14px;
+  color: white;
+}
+.sum ul li span {
+  font-size: 50px;
+}
+
+.table {
+  display: table;
+}
+.sum {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  background-color: black;
+}
+
+
+.casenav {
+  background-color: #626262;
+  padding: 20px 0;
+}
+
+.nav-placeholder {
+  margin: 0 0 40px 0;
+}
+.casenav a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: white;
+}
+.casenav a:hover {
+  color:#F2AE72;
+  transition: 0.5s;
+}
+.casenav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main, .otherworks {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main h1 {
+  margin: 0;
+  padding: 40px 20px 20px 20px;
+  color: #333333;
+}
+.main h2 {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-bottom: 4px solid #F2AE72;
+  color: #333333;
+
+}
+.main p {
+  font-size: 18px;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #333333;
+}
+.main h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.main h2 {
+  font-size: 18px;
+}
+.textwrapper {
+  padding: 20px;
+}
+.datalist {
+  background-color: #ECF0F1;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.datalist ul li {
+  margin-bottom: 10px;
+}
+.campussurveyimg, .campuscompetitors {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.campuscompetitors img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.campussurveyimg img, .brandex img, .campuslogodraft img, .campuslogodraft2 img, .campuslogofinal img, .campusmap img, .campusflows img, .campushifipic img, .codepic img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.campuslofiimg {
+  background-color: #ECF0F1;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.campuslofiimg img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ABtest, .ABtest2 {
+  background-color: #ECF0F1;
+}
+.dorispersona, .stevenpersona, .ivanpersona {
+  width: 30%;
+}
+.dorispersona img, .stevenpersona img, .ivanpersona img {
+  width: 100%;
+}
+.dorispersona, .stevenpersona, .ivanpersona {
+  float: left;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.dorispersona, .stevenpersona {
+  padding-right: 5%;
+}
+
+.ABtest img, .ABtest2 img {
+  width: 48%;
+}
+.Atest, .Atest2 {
+  float: left;
+}
+.ABtest, .ABtest2 {
+  padding: 30px;
+}
+.ABtestcontainer h1 {
+  background-color: #2B2B2B;
+  padding: 15px;
+  font-weight: normal;
+  font-size: 16px;
+}
+.Atest, .Atest2 {
+  padding-right: 4%;
+}
+.protolink {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.sum p {
+  margin: 0;
+}
+
+.protolink, .flows {
+  text-decoration: none;
+  font-weight: bold;
+  color: #F2AE72;
+}
+.campushifipic {
+  padding-bottom: 20px;
+}
+.livesite {
+  padding-bottom: 20px;
+}
+
+section {
+    min-height: 100%;
+}
+
+
+/**CONTACT**/
+.contactheader {
+background-color: #F2AE72;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactheader h1 {
+  text-align: center;
+  padding: 60px 40px 20px 40px;
+  margin: 0;
+  color: white;
+}
+.contactheader p {
+  text-align: center;
+  padding: 10px 0 60px 40px;
+  margin: 0;
+  color: white;
+}
+.contactheader p a {
+  text-decoration: none;
+}
+#form-wrap {
+  background-color: white;
+  border: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin: 10px 0;
+}
+input {
+  width: 50%;
+}
+textarea{
+  width: 90%;
+  height: 200px;
+}
+.emailbtn {
+  width: 200px;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  border: none;
+  background-color: #588C7E;
+  color: white;
+}
+
+
