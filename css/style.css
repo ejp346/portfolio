@@ -15,6 +15,10 @@ margin-top: 20%;
 .fitmaphover h1 {
   margin-top: 10%;
 }
+.aboutmedescription {
+  padding: 5%;
+  font-size: 18px;
+}
 }
 @media (min-width: 500px) {
   .campushover h1, .sharespacehover h1{
@@ -31,6 +35,61 @@ margin-top: 35%;
 .fitmaphover h1 {
   margin-top: 30%;
 }
+.sum p, .sum2 p {
+  font-size: 14px;
+  }
+.sum h1, .sum2 h1 {  
+font-size: 50px;
+}
+.main p, .main ul li {
+  font-size: 18px;
+}
+.protolink {
+  font-size: 18px;
+}
+.casenav a {
+  padding-left: 20px;
+}
+.casenav {
+  padding: 20px 0;
+}
+.aboutmedescription {
+  font-size: 14px;
+  width: 70%;
+}
+.aboutmepic {
+  position: relative;
+}
+.aboutmedescription {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: white;
+  padding: 0;
+}
+}
+@media (max-width: 599px) {
+  .sum p, .sum2 p {
+    font-size: 12px;
+  }
+  .sum h1 {
+    font-size: 36px;
+  }
+  .sum2 h1 {
+    font-size: 32px;
+  }
+  .main p, .main ul li {
+    font-size: 14px;
+  }
+  .protolink {
+    font-size: 14px;
+  }
+  .casenav a {
+    padding-left: 7px;
+  }
+  .casenav {
+    padding: 10px 0;
+  }
 }
 @media (max-width: 949px) {
   header {
@@ -91,7 +150,53 @@ footer ul li {
   padding-left: 10px;
   padding-right: 10px;
 }
+.resumeheader, .contactheader {
+  margin-top: 5px;
 }
+.fixed {
+  width: 100%;
+}
+.hero {
+  margin-top: 5px;
+}
+
+/**About Me**/
+.aboutmepic {
+  margin-top: 5px;
+}
+iframe {
+  width: 100%;
+}
+.formbk {
+  width: 100%;
+}
+}
+
+@media (min-width: 800px) {
+
+.skills {
+  display: table;
+  padding-left: 6%;
+}
+
+.columnone, .columntwo, .columnthree {
+  display: table-cell;
+  width: 30%;
+}
+}
+
+@media (max-width: 799px) {
+.resume ul li {
+  font-size: 12px;
+}
+.resume p {
+  font-size: 14px;
+}
+.casenav a {
+  font-size: 12px;
+}
+}
+
 @media (min-width: 950px) {
 /**HEADER**/
 header {
@@ -191,12 +296,66 @@ margin-top: 20%;
 .fitmaphover h1 {
   margin-top: 10%;
 }
+
+
+/**resume**/
+
+.resume {
+  width: 80%;
+  margin: 0 auto;
 }
+
+/**contact**/
+#form-wrap, .contactheader {
+width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**campus**/
+.casenav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixed {
+  left: 10%;
+}
+.main {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/**About Me**/
+.aboutmepic {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutmedescription {
+  width: 60%;
+  font-size: 16px;
+}
+
+.formbk {
+  width: 80%;
+}
+
+}
+
 @media (min-width: 1000px) {
   .fitmaphover h1 {
     margin-top: 16%;
   }
 }
+
+
 /**End of Media Queries**/
 .studies h1 {
   font-size: 21px;
@@ -303,6 +462,10 @@ margin-top: 5px;
   text-align: center;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 }
+.contactbtn a:hover {
+  background-color: #397A69;
+  transition: 0.5s;
+}
 .contactstyle {
   padding-top: 15px;
 }
@@ -385,44 +548,36 @@ footer ul li a:hover {
 
 .hero {
   background-image: linear-gradient(153deg, #EF7C6C 0%, #D96459 95%);;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .herocampusimg {
   width: 70%;
-  padding: 5% 0 5% 25%;
+  padding: 8% 0 8% 25%;
 }
 
-.sum {
+.herofitmapimg {
+  width: 70%;
+  padding: 20% 0 10% 25%;
+}
+
+.herosharespaceimg {
+  width: 70%;
+  padding: 10% 0 8% 25%;
+}
+
+.sum, .sum2 {
   width: 60%;
-  padding: 0 8% 0 4%;
+  padding: 0 8% 8% 4%;
 }
-.sum img {
-  width: 25%;
-}
-.sum ul {
-  list-style-type: none;
-  margin: 0;
-  padding:0 0 20px 0;
-}
-.sum ul li {
-  display: inline;
-  padding-right: 10px;
+
+
+.sum p, .sum h1, .sum2 p, .sum2 h1 {
   color: white;
-}
-.sum p {
-  font-size: 14px;
-  color: white;
-}
-.sum ul li span {
-  font-size: 50px;
 }
 
 .table {
   display: table;
 }
-.sum {
+.sum, .sum2 {
   display: table-cell;
   vertical-align: middle;
 }
@@ -430,14 +585,11 @@ footer ul li a:hover {
 .fixed {
   position: fixed;
   top: 0;
-  left: 10%;
   background-color: black;
 }
 
-
 .casenav {
   background-color: #626262;
-  padding: 20px 0;
 }
 
 .nav-placeholder {
@@ -445,24 +597,13 @@ footer ul li a:hover {
 }
 .casenav a {
   text-decoration: none;
-  padding-left: 20px;
   color: white;
 }
 .casenav a:hover {
   color:#F2AE72;
   transition: 0.5s;
 }
-.casenav {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.main, .otherworks {
-    height: 100%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .main h1 {
   margin: 0;
   padding: 40px 20px 20px 20px;
@@ -477,7 +618,6 @@ footer ul li a:hover {
 
 }
 .main p {
-  font-size: 18px;
   margin: 0;
   padding-left: 20px;
   padding-top: 20px;
@@ -502,23 +642,47 @@ footer ul li a:hover {
 .datalist ul li {
   margin-bottom: 10px;
 }
-.campussurveyimg, .campuscompetitors {
+.campuscompetitors, .fitmapcompetitors, .swotanalysis {
   padding-bottom: 30px;
   padding-top: 10px;
 }
-.campuscompetitors img {
+.campussurveyimg, .fitmapsurveyimg {
+  padding-top: 10px;
+}
+.campussurveyimg img, .fitmapsurveyimg img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.campuscompetitors img, .fitmapcompetitors img {
   width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.campussurveyimg img, .brandex img, .campuslogodraft img, .campuslogodraft2 img, .campuslogofinal img, .campusmap img, .campusflows img, .campushifipic img, .codepic img {
+.swotanalysis img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.fitmaplogodrafts img, .brandex img, .campuslogodraft img, .campuslogodraft2 img, .campuslogofinal img, .campusmap img, .fitmapmap img, .campusflows img, .codepic img, .fitmapidentity img, .visualmoodtest, .preftest img {
   display: block;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+.campushifipic img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
 }
 
 .campuslofiimg {
@@ -534,21 +698,21 @@ footer ul li a:hover {
   margin-right: auto;
 }
 
-.ABtest, .ABtest2 {
+.ABtest, .ABtest2, .preftest {
   background-color: #ECF0F1;
 }
-.dorispersona, .stevenpersona, .ivanpersona {
+.dorispersona, .stevenpersona, .ivanpersona, .raymondpersona, .irenepersona, .mingpersona {
   width: 30%;
 }
-.dorispersona img, .stevenpersona img, .ivanpersona img {
+.dorispersona img, .stevenpersona img, .ivanpersona img, .raymondpersona img, .irenepersona img, .mingpersona img {
   width: 100%;
 }
-.dorispersona, .stevenpersona, .ivanpersona {
+.dorispersona, .stevenpersona, .ivanpersona, .raymondpersona, .irenepersona, .mingpersona {
   float: left;
   padding-bottom: 30px;
   padding-top: 10px;
 }
-.dorispersona, .stevenpersona {
+.dorispersona, .stevenpersona, .raymondpersona, .irenepersona {
   padding-right: 5%;
 }
 
@@ -558,7 +722,7 @@ footer ul li a:hover {
 .Atest, .Atest2 {
   float: left;
 }
-.ABtest, .ABtest2 {
+.ABtest, .ABtest2, .preftest {
   padding: 30px;
 }
 .ABtestcontainer h1 {
@@ -572,11 +736,10 @@ footer ul li a:hover {
 }
 .protolink {
   padding-left: 20px;
-  font-size: 18px;
   font-weight: bold;
   color: black;
 }
-.sum p {
+.sum p, .sum2 p {
   margin: 0;
 }
 
@@ -600,9 +763,6 @@ section {
 /**CONTACT**/
 .contactheader {
 background-color: #F2AE72;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .contactheader h1 {
   text-align: center;
@@ -612,43 +772,78 @@ background-color: #F2AE72;
 }
 .contactheader p {
   text-align: center;
-  padding: 10px 0 60px 40px;
+  padding: 10px 0 60px 0;
   margin: 0;
   color: white;
 }
 .contactheader p a {
   text-decoration: none;
 }
-#form-wrap {
+
+.resume {
   background-color: white;
-  border: 0;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 40px;
+
+}
+.resume h2 {
+  padding: 20px;
+  background-color: #ECF0F1;
+}
+.resume p {
+  padding-left: 20px;
+}
+.resume ul {
+  padding: 0 8%;
+}
+.resume ul li {
+  padding-bottom: 5px;
+}
+.resumeheader {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.resume h1 {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #333333;
 }
 
-form {
-  width: 80%;
-  margin: 0 auto;
+.resumeheader a {
+  text-decoration: none;
+  font-weight: bold;
 }
-label {
-  display: block;
-  margin: 10px 0;
+
+/**About Me**/
+.aboutmepic img {
+  width: 100%;
+  margin-bottom: -5px;
+  opacity: 0.9;
 }
-input {
-  width: 50%;
+.aboutmedescription span {
+  font-size: 21px;
+  opacity: 0.7;
 }
-textarea{
-  width: 90%;
-  height: 200px;
+.aboutmedescription {
+ color: white;
 }
-.emailbtn {
-  width: 200px;
-  margin-bottom: 40px;
-  padding: 10px 0;
+
+iframe {
+  display:block; 
+  margin: 0px auto; 
   border: none;
-  background-color: #588C7E;
-  color: white;
+}
+.formbk {
+  background-color: white;
+  margin: 0px auto;
 }
 
+.pdfholder {
+  padding-bottom: 10px;
+}
+.pdfholder a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+}
 
