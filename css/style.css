@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6, body {
 html {
   background-color: black;
 }
+@media (max-width: 299px) {
+  .campushover h1, .sharespacehover h1{
+margin-top: 5%;
+}
+.fitmaphover h1 {
+  margin-top: 5%;
+  }
+}
 @media (min-width: 300px) {
   .campushover h1, .sharespacehover h1{
 margin-top: 20%;
