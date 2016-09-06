@@ -10,11 +10,16 @@ html {
 }
 @media (max-width: 299px) {
   .campushover h1, .sharespacehover h1{
-margin-top: 5%;
+margin-top: 0;
+font-size: 12px;
 }
 .fitmaphover h1 {
-  margin-top: 5%;
+  margin-top: 0;
+  font-size: 12px;
   }
+.container ul li a {
+  font-size: 12px;
+}
 }
 @media (min-width: 300px) {
   .campushover h1, .sharespacehover h1{
