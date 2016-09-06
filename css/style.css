@@ -448,12 +448,15 @@ margin-top: 5px;
 
 .contactbtn {
   background-color: #F2AE72;
-  width: 183.1px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -15px;
+}
+.contactbtn a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.contactbtn a {
   text-decoration: none;
   font-weight: bold;
   color: white;
